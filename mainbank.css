@@ -1,0 +1,24 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.welcometxt{
+  font-family: Bebas Neue, Arial;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.Butt{
+  background-color: rgb(128, 128, 241);
+  border: none;
+  color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 3px;
+}

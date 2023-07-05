@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign-up page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="signupform.css">
+  </head>
+  <body>
+    <div class="outer">
+
+      <div class="container">
+
+        <div class="info">
+          <p class="text">MINI BANK</p>
+          <div class="name">
+            <input class = "firstname" type = "text" placeholder="First Name" id = "firstname">
+            <input class = "surname" type = "text" placeholder="Surname" id="surname">
+          </div>
+          <input class = "accountNum" type = "text" placeholder="Account Number" id="accountNum">
+          <button class="signup-button" id="signup-button" onclick="createAccount()">Sign Up</button>
+        </div>
+  
+        <div class="display" id="display">
+          <p class="text" id="details"></p>
+        </div>
+
+      </div>
+
+    </div>
+    <script src="signupform.js">
+    </script>
+  </body>
+</html>
