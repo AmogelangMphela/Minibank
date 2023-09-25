@@ -70,6 +70,7 @@ const createAccount = () => {
     document.getElementById('surname').value = ''
     document.getElementById('accountNum').value = ''
     accList.push(firstAcc)
+    console.log(accList);
     saveAccList()
   }
   else{
